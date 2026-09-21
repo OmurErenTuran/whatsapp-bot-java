@@ -1,63 +1,49 @@
-# WhatsApp Chat Bot
+# WhatsApp AI Chat Bot
 
-A WhatsApp chatbot developed with Node.js using the WhatsApp Business API.
+An AI-powered WhatsApp chatbot built with **Node.js**, **Gemini API**, and **Tavily Search API**. The bot can answer questions using Gemini and retrieve up-to-date information from Tavily Search.
 
-## Features
+![Node.js](https://img.shields.io/badge/Node.js-18+-green)
+![WhatsApp API](https://img.shields.io/badge/WhatsApp-Business_API-25D366)
+![Gemini](https://img.shields.io/badge/Gemini-AI-blue)
+![Tavily](https://img.shields.io/badge/Tavily-Search-orange)
+## Installation
 
-* Receives WhatsApp messages.
-* Sends automated replies.
-* Stores conversation history in a JSON file.
-* Easy to customize and extend.
+1. Clone the repository.
 
-## Technologies
-
-* Node.js
-* WhatsApp Business API (Meta)
-* JavaScript
-* Git & GitHub
-
-## Project Structure
-
-* `index.js` — Main chatbot logic.
-* `memory.json` — Stores conversation memory.
-* `package.json` — Project dependencies.
-
-## Future Improvements
-
-* Spanish vocabulary quiz.
-* AI-powered responses.
-* Database integration.
-
-## API Keys Required
-
-To run this application, you need your own API keys.
-
-### 1. Gemini API
-
-* Create a Gemini API key from Google AI Studio.
-* Add it to your `.env` file as:
-
-```env
-GEMINI_API_KEY=your_gemini_api_key
+```bash
+git clone https://github.com/OmurErenTuran/whatsapp-bot-java.git
+cd whatsapp-bot-java
 ```
 
-### 2. Tavily API
+2. Install dependencies.
 
-* Create a Tavily API key from the Tavily dashboard.
-* Add it to your `.env` file as:
-
-```env
-TAVILY_API_KEY=your_tavily_api_key
+```bash
+npm install
 ```
 
-## Environment Variables
+3. Create a `.env` file using `.env.example`.
 
-Create a `.env` file in the project root:
+4. Add your own API keys.
 
 ```env
 GEMINI_API_KEY=your_gemini_api_key
 TAVILY_API_KEY=your_tavily_api_key
 ```
 
+5. Start the bot.
 
-> **Important:** Never commit your API keys to GitHub. The `.env` file is ignored by `.gitignore`.
+```bash
+node index.js
+```
+## Required API Keys
+
+This project requires two API keys before it can run:
+
+| API            | Purpose                                      |
+| -------------- | -------------------------------------------- |
+| **Gemini API** | AI responses for WhatsApp conversations.     |
+| **Tavily API** | Real-time web search for up-to-date answers. |
+
+Create your own API keys and place them in the `.env` file. The example variables are provided in `.env.example`.
+
+> **Important:** Never upload your `.env` file or API keys to GitHub.
