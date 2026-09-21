@@ -1,0 +1,66 @@
+[
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "Benim adım eren"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "Merhaba Eren, memnun oldum! Bugün sana nasıl yardımcı olabilirim?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "Adım ne"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "Adın Eren. :)"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "Konuşmalarımızı hatırlıyorsun"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "Evet, kesinlikle! Bu sohbetimiz süresince konuştuğumuz şeyleri hatırlıyorum. \n\nBana anlattığın detayları aklımda tutarak sana daha iyi yardımcı olabilirim. Bugün başka ne hakkında konuşmak istersin?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "Bugün İstanbul da hava nasıl?"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "Sorry, I hit an error talking to the AI just now."
+      }
+    ]
+  }
+]
